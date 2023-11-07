@@ -21,6 +21,12 @@
     }
 }
 
+body{
+
+    aspect-ratio: 16/9;
+    
+}
+
 /* Header*/
 
 header {
