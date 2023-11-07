@@ -16,19 +16,19 @@ toggleBtn.addEventListener('click', () => {
 });
 
 
-closeWindowHi.addEventListener('click', () =>{
-   
+closeWindowHi.addEventListener('click', () => {
+
     windowElement.classList.toggle('hidden');
 
 });
 
-minimizeWindowHi.addEventListener('click', () =>{
+minimizeWindowHi.addEventListener('click', () => {
 
     windowBodyHi.style.display = 'none'
 
 });
 
-showWindowHi.addEventListener('click', () =>{
+showWindowHi.addEventListener('click', () => {
 
     windowBodyHi.style.display = 'block'
 

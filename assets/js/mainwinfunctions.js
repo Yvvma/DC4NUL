@@ -6,25 +6,25 @@ const minimizeWindow = document.getElementById('yellow');
 const showWindow = document.getElementById('green');
 const rejectBtn = document.getElementById('rejectBtn');
 
-closeWindow.addEventListener('click', () =>{
-   
+closeWindow.addEventListener('click', () => {
+
     windowFrame.style.display = 'none';
 
 });
 
-minimizeWindow.addEventListener('click', () =>{
+minimizeWindow.addEventListener('click', () => {
 
     windowBody.style.display = 'none'
 
 });
 
-showWindow.addEventListener('click', () =>{
+showWindow.addEventListener('click', () => {
 
     windowBody.style.display = 'block'
 
 });
 
-rejectBtn.addEventListener('click', () =>{
+rejectBtn.addEventListener('click', () => {
 
     windowFrame.style.display = 'none'
 
