@@ -24,6 +24,8 @@
 /* Header*/
 
 #container {
+    height: 20vh;
+    width: 100% ;
     background-color: white;
     position: sticky;
     top: 0;
