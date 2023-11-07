@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DC4NUL</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/img/favicon.png" type="image/x-icon">
+
+</head>
+<body>
+
+    <header id="container">
+        <div>
+            <img class="logo" src="/img/Other-removebg-preview.png" alt="">         
+        </div>
+        
+        <div class="list">
+            <ol>
+            <li>
+            <a href="#one" style="text-decoration: none">WEB DESIGN</a>
+            </li>
+            <li>
+            <a href="#two" style="text-decoration: none">WEB DEVELOPMENT</a>
+            </li>
+            <li>
+            <a href="#three" style="text-decoration: none">ILLUSTRATIONS</a>
+            </li>
+            <li>
+            <a href="#four" style="text-decoration: none">VIDEO EDITING</a>
+            </li>
+            </ol>
+        </div>
+
+    </header>
+
+    <main>
+     
+             <!--Main Window-->
+             <div id="windowFrame">
+                 <div class="title-bar">
+                  <div class="dots">        
+                    <!-- Test  <a class="red" href="#"><span>x</span></a>
+                     <a class="yellow" href="#"><span>-</span></a>
+                    <a class="green" href="#"><span>+</span></a>-->
+                    <button id="red"><span class="showProp">x</span></button>
+                    <button id="yellow"><span class="showProp">-</span></button>
+                    <button id="green"><span class="showProp">+</span></button>
+                </div>
+                <a>YAMA™</a>
+            </div>
+
+            <div class="windowBody">
+                <p> Got any questions? </p>
+                <div class="positionBtn">
+                    <button id="acceptBtn"><a>Yes</a></button>
+                    <button id="rejectBtn"><a>No</a></button>
+                </div>
+            </div>
+        </div>
+
+        <!--Hidden window-->
+        <div id="info" class="hidden">    
+            <div class="content">
+                <div class="title-bar">
+                    <a>YAMA™</a> 
+                        <div class="dotshide">              
+                        <button id="redhide"><span class="showPropHi">x</span></button>
+                        <button id="yellowhide"><span class="showPropHi">-</span></button>
+                        <button id="greenhide"><span class="showPropHi">+</span></button>
+                    </div>
+                </div>
+         
+        <!--Not Finished-->        
+                <div class="infoBody">
+                    <p> Set your message </p>
+                    
+                    <form id="contractForm" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required><br>
+                
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br>
+                
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea><br>
+            
+                        <input type="submit" value="Submit">
+                    </form> 
+                </div>    
+            </div>
+        </div>
+
+         <!--1. web Design-->
+
+            <section class="hide" id="one">
+
+                <h1>Web Design</h1>
+                <div class="images">
+                    <img src="/img/one.png" alt="one" class="contImg" width="20%">
+                    <figure>
+                        <img src="/img/Webdsgn/RR2023.png" alt="RR2023" width="270px" height="120px">
+                        <figcaption> RR 2023 (3D Art + Layout) </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/img/Webdsgn/midnightrituals.png" alt="awge2023" width="270px" height="120px">
+                        <figcaption> Midnight Rituals (3D Art Only) </figcaption>
+                    </figure>
+                </div>
+             
+            </section>
+
+        <!--2. Web Development-->
+      
+            <section class="hide" id="two">
+                <!--Change black images later-->
+                <h1>Web Development</h1>
+                <div class="images">
+                    <img src="/img/two.png" alt="two" class="contImg" width="20%">
+                    <figure>
+                        <img src="/img/Webdsgn/RR2023.png" alt="RR2023" width="270px" height="120px">
+                        <figcaption> RR 2023 (3D Art + Layout) </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/img/Illustrations/blackscreen.jpg" alt="???" width="270px" height="120px">
+                        <figcaption> ??? </figcaption>
+                    </figure>
+                </div>
+                
+            </section>
+
+
+        <!--3. illustrations-->
+        
+            <section class="hide" id="three">
+
+                <h1>Illustrations</h1>
+                <!--Change black images later-->
+                <div class="images">
+                    <img src="/img/three.png" alt="three" class="contImg" width="20%">
+                    <figure>
+                        <img src="/img/Illustrations/blackscreen.jpg" alt="???" width="270px" height="120px">
+                        <figcaption> ??? </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/img/Illustrations/blackscreen.jpg" alt="???" width="270px" height="120px">
+                        <figcaption> ??? </figcaption>
+                    </figure>
+                </div>
+
+            </section>
+
+        <!--4. Video Editing-->
+     
+            <section class="hide" id="four">
+
+                <!--Change black images later-->
+                <h1>Video Editing</h1>
+                <div class="images">
+                    <img src="/img/four.png" alt="four" class="contImg" width="20%">
+                    <figure>
+                        <iframe width="270px" height="120px" src="https://youtube.com/embed/cYq0vJFuy4U?si=rOfEvRlWbNcamKbd"></iframe>
+                        <figcaption> Awge Style Edit (VFX + Coloring) </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/img/Illustrations/blackscreen.jpg" alt="???" width="270px" height="120px">
+                        <figcaption> ??? </figcaption>
+                    </figure>
+                </div>
+
+            </section>
+
+
+    </main>
+
+    <footer>
+
+        <div class="business">
+        <p> Business inquires</p>
+        <p> E-mail: <a href="mailto:off.yvdi@gmail.com">off.yvdi@gmail.com</a> </p>
+        </div>
+        <p class="tm"> YAMA™ 2023 </p>
+
+    </footer>
+
+</body>
+
+    <script src="/js/mainwinfunctions.js"></script>
+    <script src="/js/hiddenwindow.js"></script>
+    <script src="/js/scroll.js"></script>
+
+</html>
