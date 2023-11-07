@@ -376,6 +376,14 @@ figcaption{
     
 }
 
+.info {
+
+    font-family: Bale Mono;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
 h1 {
 
     font-family: Arial, Helvetica, sans-serif;
