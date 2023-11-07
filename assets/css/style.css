@@ -21,8 +21,8 @@
     }
 }
 
-@media (max-width: 768px) {
-    body {
+@media (max-width: 480px) {
+    main {
         font-size: 16px;
     }
 
@@ -65,16 +65,19 @@
 
 }
 
-/* Main Window*/
+/* main */
 
-body{
+main{
     
     width: 100%;
     background-color: white;
+    display: flex;
     flex-direction: column;
     
-
 }
+
+/* Main Window*/
+
 #windowFrame {
     
     width: 500px;
