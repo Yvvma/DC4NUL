@@ -1,11 +1,9 @@
-# DC4NUL
+# Yama Website
 
 This Website was made with the simple purpose of presenting new perspectives.
 
-Life matters.
+Presenting projects for the simplest reason of opening new ideas.
 
-XOXO
-
-Yama 山
+# 
 
 ✦✦✦✦✦✦✦

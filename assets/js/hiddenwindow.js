@@ -22,6 +22,8 @@ closeWindowHi.addEventListener('click', () => {
 
 });
 
+
+
 minimizeWindowHi.addEventListener('click', () => {
 
     windowBodyHi.style.display = 'none'

@@ -28,23 +28,23 @@
 
 @media (max-width: 480px) {
     header {
-        font-size: 14px;
+        font-size: 10px;
     }
     main {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     footer {
-        font-size: 14px;
+        font-size: 10px;
     }
 }
 
 body {
+    
     aspect-ratio: 16/9;
     margin: 0;
     padding: 0;
     
-
 }
 
 /* Header*/
@@ -60,6 +60,7 @@ header {
     flex-direction: row;
 
 }
+
 
 .logo {
 
@@ -89,6 +90,7 @@ main {
 
 }
 
+    
 /* Main Window*/
 
 #windowFrame {
@@ -412,13 +414,71 @@ section {
     flex-direction: column;
     min-height: 40vh;
     width: auto;
-
+    padding-bottom: 50px;
+    
 }
 
 figcaption {
     font-family: Bale Mono;
     font-weight: bold;
     font-size: 10px;
+}
+
+h1 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+h2{
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    display: flex;
+
+}
+
+section .p-text{
+    position: inherit;
+    font-family: Bale Mono;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+ }
+
+ 
+ul {
+    list-style: none;
+    
+}
+
+ul li{
+    padding-bottom: 25px;
+}
+
+ul li h2{
+    position: relative;
+    padding: 0px 50px;
+}
+
+ul li h2::before{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    content: url('/assets/img/General/bullet.svg'); 
+    display: inline-block;
+    width: 16px; 
+    height: 16px;
+    margin: 0px;
+}
+
+ul li div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
 }
 
 .images {
@@ -428,7 +488,6 @@ figcaption {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: 20px;
     
 
 }
@@ -438,14 +497,6 @@ figcaption {
     font-family: Bale Mono;
     font-weight: bold;
     font-size: 20px;
-
-}
-
-h1 {
-
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 60px;
 
 }
 
@@ -465,7 +516,6 @@ h1 {
     transform: translateX(0);
 
 }
-
 
 
 /*footer*/
