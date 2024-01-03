@@ -1,6 +1,6 @@
 @font-face {
     font-family: Bale Mono;
-    src: url("Fonts/BaleMono-Light.ttf");
+    src: url('/assets/Fonts/BaleMono-Light.ttf');
     font-style: normal;
 }
 
@@ -467,7 +467,7 @@ ul li h2::before{
     position: absolute;
     top: 0; 
     left: 0;
-    content: url('assets/img/General/bullet.svg'); 
+    content: url('/assets/img/General/bullet.svg'); 
     display: inline-block;
     width: 16px; 
     height: 16px;
