@@ -455,7 +455,7 @@ ul li{
 }
 
 ul li h2::before{
-    content: url('/assets/img/General/bullet.svg');
+    content: url('/Portfolio-Website/assets/img/General/bullet.svg');
     width: 16px;
     height: 16px;
     padding: 0px 20px;
