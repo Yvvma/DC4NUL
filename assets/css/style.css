@@ -435,7 +435,6 @@ h2{
 }
 
 section .p-text{
-    position: inherit;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: bold;
     text-align: center;
@@ -444,31 +443,26 @@ section .p-text{
 
  
 ul {
+
     list-style: none;
+    list-style-position: outside;
+    
     
 }
 
 ul li{
-    padding-bottom: 25px;
-}
-
-ul li h2{
-    position: relative;
-    padding: 0px 50px;
+    padding-bottom: 25px;  
 }
 
 ul li h2::before{
-    position: absolute;
-    top: 0; 
-    left: 0;
-    content: url('assets/img/General/bullet.svg'); 
-    display: inline-block;
-    width: 16px; 
+    content: url('/assets/img/General/bullet.svg');
+    width: 16px;
     height: 16px;
-    margin: 0px;
+    padding: 0px 20px;
 }
 
 ul li div{
+
     display: flex;
     flex-direction: row;
     justify-content: center;
