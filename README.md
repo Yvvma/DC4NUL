@@ -1,13 +1,3 @@
-# Yama Website
+# Portfolio Website
 
-This Website was made with the simple purpose of presenting new perspectives.
-
-
-Presenting projects for the simplest reason of opening new ideas.
-
-# 
-=======
-XOXO
-
-
-✦✦✦✦✦✦✦
+Portfolio made with HTML, CSS and JS, basically presenting my workflow.
